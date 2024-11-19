@@ -1,0 +1,42 @@
+/* Retro Terminal CSS */
+
+body {
+    background-color: #2b2b2b; /* Dark background */
+    color: #00ff00; /* Bright green text */
+    font-family: "Courier New", Courier, monospace; /* Monospace font */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#terminal {
+    background: #000; /* Black terminal background */
+    border: 5px solid #444; /* Gray border */
+    box-shadow: 0 0 20px #00ff00; /* Green glowing effect */
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    height: 400px;
+    overflow-y: auto;
+    text-shadow: 0 0 5px #00ff00; /* Glowing text effect */
+}
+
+p {
+    margin: 5px 0;
+}
+
+.input {
+    color: #ffcc00; /* Yellow for user input */
+}
+
+#terminal::-webkit-scrollbar {
+    width: 8px;
+}
+
+#terminal::-webkit-scrollbar-thumb {
+    background-color: #444;
+    border-radius: 5px;
+}

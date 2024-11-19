@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+
+body {
+    background-image: url('1224149.png');
+    background-color: sienna;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    
+    font-family: "Doto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 200px; /* Fixed unit for font-size */
+}
+
+body h1 {
+    color: seashell;
+    font-size: 150px;
+    margin: 0;
+    transition: text-shadow 0.3s ease; 
+}
+
+body h1:hover {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff00ff, 0 0 40px #ff00ff;
+}
+
+body p {
+    color: #f6f1f4;
+    font-weight: 700;
+    font-size: 90px;
+    margin: 0;
+    transition: text-shadow 0.3s ease;
+}
+
+body p:hover {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00ffff, 0 0 40px #00ffff;
+}
